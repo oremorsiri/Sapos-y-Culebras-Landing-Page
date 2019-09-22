@@ -48,6 +48,7 @@ img {
     height: 450px;
     object-fit: cover;
     width: auto;
+    animation: moverArriba 1s ease-in;
 }
 
 .textos {
