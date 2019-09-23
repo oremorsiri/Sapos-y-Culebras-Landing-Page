@@ -58,6 +58,8 @@ img {
 
 .textos h1 {
     font-size: 70px;
+    color: black;
+    font-family: 'Vollkorn SC', serif;
     animation: moverDerecha 1s ease-in;
 }
 
