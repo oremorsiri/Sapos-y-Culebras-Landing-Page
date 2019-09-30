@@ -3,7 +3,8 @@ let boton = document.getElementById("menu");
 let enlaces = document.getElementById("enlaces");
 let contador = 0;
 
-boton.addEventListener("click", function () {
+boton.addEventListener("click", function (event) {
+    event.preventDefault();
     if (contador == 0) {
         enlaces.className = ("enlaces abierto");
         contador = 1;
