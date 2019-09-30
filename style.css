@@ -39,6 +39,10 @@ header {
     z-index: 100;
 }
 
+.botonInicio { 
+    margin: 10px;
+}
+
 .enlaces {
     position: fixed;
     display: flex;
@@ -56,7 +60,6 @@ header {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #F0C27B, #4B1248);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 .cerrado {
@@ -99,17 +102,6 @@ img {
 .textos h2 {
     font-size: 20px;
     animation: moverIzquierda 1s ease-in;
-}
-
-.textos input {
-    display: inline-block;
-    font-weight: 300;
-    text-decoration: none;
-    margin-top: 30px;
-    border: 1px solid #fff;
-    border-radius: 3px;
-    padding: 10px 10px;
-    animation: moverArriba 1s ease-in;
 }
 
 .textos a {
